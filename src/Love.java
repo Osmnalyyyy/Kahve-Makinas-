@@ -12,5 +12,9 @@ public class Love {
             sevgi = sevgi.substring(0, index) + ekle + sevgi.substring(index);
             System.out.println(sevgi);
         }
+        for (int i = 1000; i >0 ; i--) {
+        sevgi=sevgi.substring(0,index)+sevgi.substring(index+1);
+            System.out.println(sevgi);
+        }
     }
 }
